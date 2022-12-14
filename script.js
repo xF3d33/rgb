@@ -368,7 +368,7 @@ function preset(n) {
     }
     jscolor.install(); // Refresh all jscolor elements
 }
-toggleColors(2);
+toggleColors(3);
 updateOutputText();
 document.getElementById('darkmode').checked = true
 darkMode()

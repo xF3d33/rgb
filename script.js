@@ -1,7 +1,7 @@
 // elements for obtaining vals
 const nickName = document.getElementById('nickname');
 const coloredNick = document.getElementById('coloredNick');
-const savedColors = ['084CFB', 'ADF3FD', getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor()];
+const savedColors = ['D510CD', 'AF62DA', '89B4e7', getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor()];
 const presets = {
   1: {
     colors: ["FF0000", "FF7F00", "FFFF00", "00FF00", "0000FF", "4B0082", "9400D3"],
@@ -269,7 +269,7 @@ function updateOutputText(event) {
     if (nickName.value) {
       let letters = /^[0-9a-zA-Z_]+$/;
       if (!nickName.value.match(letters)) nickName.value = nickName.value.replace(event.data, '');
-      if (!nickName.value.match(letters)) nickName.value = 'birdflop.com';
+      if (!nickName.value.match(letters)) nickName.value = 'CelestyMC.it';
     }
   }
 
